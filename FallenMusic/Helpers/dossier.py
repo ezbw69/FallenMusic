@@ -23,14 +23,14 @@
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = f"""
-<u>ʜᴇʏ {message.from_user.mention},
+<u>ʜᴇʏ {from_user.mention},
 ๏ ᴛʜɪs ɪs {BOT_NAME} !<u>
 
 ➻ ᴀ ғᴀsᴛ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ.
 """
 
 START_TEXT = f"""
-**ʜᴇʏ** {message.from_user.mention},
+**ʜᴇʏ** {from_user.mention},
   {BOT_NAME} ᴄᴀɴ ᴩʟᴀʏ sᴏɴɢs ɪɴ .
 
 ──────────────────
