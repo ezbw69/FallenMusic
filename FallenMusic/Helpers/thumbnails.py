@@ -71,11 +71,11 @@ async def gen_thumb(videoid, user_id):
                 duration = "Unknown"
             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
             try:
-                result["viewCount"]["short"]
+                views = result["viewCount"]["short"]
             except:
                 pass
             try:
-                result["channel"]["name"]
+                channel = result["channel"]["name"]
             except:
                 pass
 
@@ -216,11 +216,11 @@ async def gen_qthumb(videoid, user_id):
                 duration = "Unknown"
             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
             try:
-                result["viewCount"]["short"]
+                views = result["viewCount"]["short"]
             except:
                 pass
             try:
-                result["channel"]["name"]
+                channel = result["channel"]["name"]
             except:
                 pass
 
