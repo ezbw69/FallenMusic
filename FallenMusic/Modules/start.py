@@ -28,7 +28,7 @@ from youtubesearchpython.__future__ import VideosSearch
 import config
 from FallenMusic import BOT_MENTION, BOT_NAME, app
 from FallenMusic.Helpers import gp_buttons, pm_buttons
-from FallenMusic.Helpers.dossier import *
+from FallenMusic.Helpers.dossier import PM_START_TEXT, START_TEXT, HELP_TEXT, HELP_SUDO, HELP_DEV
 
 
 @app.on_message(filters.command(["start"]) & ~filters.forwarded)
